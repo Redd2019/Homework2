@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
 
     }
     public static void task1 () {
@@ -64,5 +65,16 @@ public class Main {
             System.out.println(frog);
             frog = frog + 4;
             System.out.println(frog);
+        }
+
+        public static void task6 () {
+            System.out.println("Задание 6");
+        var weightBoxer1 = 78.2;
+        var weightBoxer2 = 82.7;
+        var weightTotal = weightBoxer1 + weightBoxer2;
+            System.out.println("Общий вес двух боксеров составит " + weightTotal);
+
+            var weightDifference = weightBoxer2 - weightBoxer1;
+            System.out.println("Разница в весе двух боксеров составит " + weightDifference);
         }
 }
